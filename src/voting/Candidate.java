@@ -10,7 +10,7 @@ package voting;
 public class Candidate {
 
 	private String name;
-	private String party;
+	private String party; dfsfd
 	private int votes;
 
 	/**
