@@ -10,7 +10,7 @@ package voting;
 public class Candidate {
 
 	private String name;
-	private String party; dfsfd
+	private String party;
 	private int votes;
 
 	/**
@@ -99,6 +99,15 @@ public class Candidate {
 		} else {
 			return false;
 		}
+		
 	}
-
+	public static void main(String[]args) 
+	{
+		Candidate c1=new Candidate("t","t","0");
+		Candidate c2=new Candidate("t","t","0");
+		Candidate c3=new Candidate("t","t","0");
+		System.out.println(c1.getName()+c1.getParty()+c1.getVotes());
+		System.out.println(c2.getName()+c2.getParty()+c2.getVotes());
+		System.out.println(c3.getName()+c3.getParty()+c3.getVotes());
+	}
 }
